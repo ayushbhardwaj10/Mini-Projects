@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<style>
+	 a:link, a:visited {
+    background-color: olive;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 300%;
+    padding: 14px 25px;
+    background-color:;
+}
+body
+ { background-image:url(img2.jpg);
+ 	background-size: cover;
+ 	background-attachment: fixed;
+
+ }
+ input[type="submit"]
+{
+    background-color: olive;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2:hover {
+   background-color: green
+   }
+
+ </style>
+	
+</head>
+
+<body>
+	
+		<h1>YOU ARE SURVEILLING NOW</h1>
+		
+    <ul>
+  <li><form action="person.php" method="post">
+	
+	<input type="submit" class="button2" value="Person Details">
+    </form>
+  </li>
+    <br/><br/>
+   <li><form action="messages.php" method="post">
+	
+	<input type="submit" class="button2" value="People Messages">
+    </form>
+    <br/><br/>
+   <li><form action="contacts.php" method="post">
+	
+	<input type="submit" class="button2" value="People contacts">
+    </form></li>
+    <br/><br/>
+   <li><form action="committed.php" method="post">
+	
+	<input type="submit" class="button2" value="Crimes Committed">
+    </form></li>
+    <br/><br/>
+   <li><form action="crimes.php" method="post">
+	
+	<input type="submit" class="button2" value="Crimes List">
+    </form></li>
+    <br/><br/> 
+   <li><form action="residing.php" method="post">
+	
+	<input type="submit" class="button2" value="People Residing Details">
+    </form></li>
+    <br/><br/> 
+   <li><form action="city.php" method="post">
+	
+	<input type="submit" class="button2" value="City Details">
+    </form></li>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+
+    <form action="logout.php" method="post">
+	
+	<input style=" background-color:red;" type="submit" class="button3" value="LOGOUT">
+    </form> 
+
+
+    </ul>
+	</div>
+</body>
+
+</html>

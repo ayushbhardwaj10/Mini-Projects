@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1300.0" styleClass="anchor" stylesheets="@AdminWork.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminWork">
+   <children>
+      <Button layoutX="119.0" layoutY="117.0" mnemonicParsing="false" onAction="#insert" prefHeight="122.0" prefWidth="383.0" style="-fx-background-color: #FFF8DC; -fx-background-radius: 12;" text="Insert Data" textFill="#862c2c">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="119.0" layoutY="310.0" mnemonicParsing="false" onAction="#delete" prefHeight="116.0" prefWidth="383.0" style="-fx-background-color: #FFF8DC; -fx-background-radius: 12;" text="Delete Data" textFill="#862c2c">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="119.0" layoutY="508.0" mnemonicParsing="false" onAction="#show" onMouseClicked="#show" prefHeight="116.0" prefWidth="383.0" style="-fx-background-color: #FFF8DC; -fx-background-radius: 12;" text="Show Data" textFill="#862c2c">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="116.0" fitWidth="106.0" layoutX="1002.0" layoutY="545.0" onMouseClicked="#returnHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/back.png" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_LEFT" layoutX="812.0" layoutY="127.0" prefHeight="52.0" prefWidth="375.0" text="I am not just an admin I have been" textFill="#ddcaca">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="812.0" layoutY="152.0" prefHeight="52.0" prefWidth="375.0" text="given power to do the backend " textFill="#ddcaca">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="812.0" layoutY="178.0" prefHeight="52.0" prefWidth="375.0" text="work to keep the record of all the" textFill="#ddcaca">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="806.0" layoutY="204.0" prefHeight="52.0" prefWidth="403.0" text="patients safely. I am lucky to do this" textFill="#ddcaca">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

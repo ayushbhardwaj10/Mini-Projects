@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1300.0" styleClass="anchor3" stylesheets="@AdminWork.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Admin_show">
+   <children>
+      <TableView fx:id="table" layoutX="85.0" layoutY="148.0" prefHeight="428.0" prefWidth="1224.0" stylesheets="@table.css" AnchorPane.bottomAnchor="124.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="138.0">
+        <columns>
+          <TableColumn fx:id="col_patientID" prefWidth="90.99996948242188" text="Patient ID" />
+          <TableColumn fx:id="col_name" prefWidth="169.00003051757812" text="Name" />
+            <TableColumn fx:id="col_age" prefWidth="88.0" text="Age" />
+            <TableColumn fx:id="col_dob" prefWidth="133.0" text="DOB" />
+            <TableColumn fx:id="col_email" prefWidth="196.0" text="Email" />
+            <TableColumn fx:id="col_phoneNumber" minWidth="0.0" prefWidth="162.0" text="Phone Number" />
+            <TableColumn fx:id="col_extraDetails" minWidth="0.0" prefWidth="178.0" text="Extra Details" />
+            <TableColumn fx:id="col_cancerLevel" minWidth="0.0" prefWidth="218.0" text="Cancer Level (2/4)" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="465.0" layoutY="30.0" prefHeight="53.0" prefWidth="347.0" text="PATIENT DETAILS">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" color="#41b1b5" height="77.34" radius="33.7225" spread="0.92" width="59.55" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="84.0" layoutX="41.0" layoutY="587.0" onMouseClicked="#returnHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/back.png" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="30.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

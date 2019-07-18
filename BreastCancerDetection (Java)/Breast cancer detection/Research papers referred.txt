@@ -1,0 +1,11 @@
+1. Krzysztof Grabczewski and Wl/odzisl/aw Duch. Heterogeneous Forests of Decision Trees. ICANN. 2002.
+   
+   LINK :http://rexa.info/paper/b19579eae108f0efb0d9adf97e480280f8e4f7a8
+
+
+2. András Antos and Balázs Kégl and Tamás Linder and Gábor Lugosi. Data-dependent margin-based generalization bounds for classification. Journal of Machine Learning Research, 3. 2002
+   LINK :http://rexa.info/paper/3ecc983417b61977b8f998e8a843948dad8fa21c
+
+
+3. Justin Bradley and Kristin P. Bennett and Bennett A. Demiriz. Constrained K-Means Clustering. Microsoft Research Dept. of Mathematical Sciences One Microsoft Way Dept. of Decision Sciences and Eng. Sys. 2000. 
+   LINK :http://rexa.info/paper/93e4d326f6a322d66e034c1b88773f3a7f621526

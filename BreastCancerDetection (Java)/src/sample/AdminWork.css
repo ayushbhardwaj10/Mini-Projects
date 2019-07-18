@@ -1,0 +1,28 @@
+.anchor {
+     -fx-background-image:url('file:F:/JavaProjects/breastCancerDetection/src/Resources/pic3.jpg');
+      height: 100px;
+       width: 50px;
+ }
+
+  .anchor3{-fx-background-image:url('file:F:/JavaProjects/breastCancerDetection/src/Resources/pic11.jpg');
+                 height: 100px;
+                  width: 50px;
+    }
+
+  .anchor5{-fx-background-image:url('file:F:/JavaProjects/breastCancerDetection/src/Resources/pic12.jpg');
+                            height: 100px;
+                             width: 50px;
+
+  }
+.anchor9 {
+-fx-background-image:url('file:F:/JavaProjects/breastCancerDetection/src/Resources/pic13.jpg');
+                            height: 100px;
+                             width: 50px;
+}
+
+.anchor13 {
+-fx-background-image:url('file:F:/eclipse-workspace/breastCancerDetection_Trial/src/Resources/pic15.jpg');
+                            height: 100px;
+                             width: 50px;
+}
+

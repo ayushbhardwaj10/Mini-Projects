@@ -1,0 +1,5 @@
+•	Tools used : Spyder, IntelliJ Idea, SQLite Manager
+•	Designed to detect breast cancer with kernel SVM algorithm(Python), accuracy-> 96%
+•	Java used for front end.
+•	JDBC as database connection to SQLite.
+

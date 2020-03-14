@@ -1,3 +1,2 @@
 # Mini-Projects
-This repository contains all the mini projects I did during the course of my engineering at New Horizon College of Engineering Bangalore 
-from 2016 to 2020.
+This repository contains all the mini projects I did during the course of my Engineering at New Horizon College of Engineering Bangalore in Computer Science from 2016 to 2020.

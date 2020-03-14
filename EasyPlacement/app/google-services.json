@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168480633178",
+    "firebase_url": "https://easyplacement-72355.firebaseio.com",
+    "project_id": "easyplacement-72355",
+    "storage_bucket": "easyplacement-72355.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168480633178:android:00d146f0c4f71b15",
+        "android_client_info": {
+          "package_name": "com.learning.ayush.easyplacement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168480633178-te9avtnun073t71860ptg9drntb4u6q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning.ayush.easyplacement",
+            "certificate_hash": "1d7647294d5f7a6de1ae44c844ddbc2c3b26148b"
+          }
+        },
+        {
+          "client_id": "168480633178-pisu7edrlpg46u6hf43sp3hi1uveaopu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV0tfo8LwJOr1xuHWpnlIMXEcZLuHMLuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168480633178-pisu7edrlpg46u6hf43sp3hi1uveaopu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

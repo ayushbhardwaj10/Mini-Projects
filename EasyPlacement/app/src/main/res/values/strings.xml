@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EasyPlacement</string>
+    <string name="welcome">WELCOME</string>
+    <string name="todo">TODO</string>
+    <string name="job_description">Job description :</string>
+    <string name="Package">Package :</string>
+</resources>
